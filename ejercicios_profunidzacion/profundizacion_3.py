@@ -64,3 +64,30 @@ pregunta_5 = "¿Cuál es la capital de Venezuela?"
 respuesta_5 = "caracas"
 
 # Empezar aquí la resolución del ejercicio
+
+respuesta_user_1 = str(input('¿Cuál es la capital de Argentina?'))
+
+if respuesta_1 == respuesta_user_1.lower():
+  puntaje += 10
+
+respuesta_user_2 = str(input('¿Cuál es la capital de Peru?'))
+
+if respuesta_2 == respuesta_user_2.lower():
+  puntaje += 10
+
+respuesta_user_3 = str(input('¿Cuál es la capital de Uruguay?'))
+
+if respuesta_3 == respuesta_user_3.lower():
+  puntaje += 10
+
+respuesta_user_4 = str(input('¿Cuál es la capital de Colombia?'))
+
+if respuesta_4 == respuesta_user_4.lower():
+  puntaje += 10
+
+respuesta_user_5 = str(input('¿Cuál es la capital de Venezuela?'))
+
+if respuesta_5 == respuesta_user_5.lower():
+  puntaje += 10
+
+print(puntaje)

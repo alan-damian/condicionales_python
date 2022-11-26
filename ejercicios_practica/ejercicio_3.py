@@ -34,5 +34,15 @@ nota = ""
 # Recuerde utilizar un solo bloque condicional
 # armado de if y múltiples elif
 # Puede consultar el ejemplo de clase 2 como referencia
-
+if puntaje >= 90:
+    nota = "A"
+elif puntaje >= 80:
+    nota = "B"
+elif puntaje >= 70:
+    nota = "C"
+elif puntaje >= 60:
+    nota = "D"
+elif puntaje < 60:
+    nota = "F"
 # Imprimir en pantalla la variable nota
+print(nota)
